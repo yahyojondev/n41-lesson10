@@ -1,0 +1,370 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F4F8FA;
+}
+
+.header-boxs {
+   position: fixed;
+    padding: 10px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1520px;
+    background-color: #FFFFFF;
+
+}
+
+.container {
+    padding-top: 60px;
+    width: 416px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header img {
+    width: 101.527px;
+    height: 40px;
+    margin-left: 98px;
+}
+
+.header-list {
+    margin-right: 98px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.header-item a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+button {
+    border: 2px solid #D9D9D9;
+    border-radius: 5px;
+    padding: 2px 9px 2px;
+    max-width: 70px;
+    height: 24px;
+    flex-shrink: 0;
+    background-color: transparent;
+}
+
+.open-btn {
+    max-width: 150px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.en-btn {
+    padding: 2px 20px 9px 10.22px;
+}
+
+.by-trend-1 {
+    padding-top: 64px;
+}
+
+.by-trend-1-box {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.by-trend-1-box img {
+    margin-bottom: 24px;
+    width: 101.527px;
+    height: 40px;
+}
+
+h1 {
+    margin-bottom: 16px;
+    color: rgba(0, 0, 0, 0.85);
+    font-family: Segoe UI;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text-btn {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.text-btn span {
+    color: #444150;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.btn {
+    border: none;
+}
+.btn-link {
+    color: #01BAB3;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+#forms {
+    padding-top: 40px;
+}
+
+.forms-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+
+}
+
+.forms-boxs {
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+label {
+    color: #444150;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.forms-box input {
+    width: 200px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    background: #FBFBFB;
+}
+
+sup {
+    color: #01BAB3;
+}
+
+input[placeholder="Russia"] {
+    padding: 10px 110px 14px 16px;
+    color: #444150;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+input[placeholder="Name of the city"] {
+    padding: 10px 110px 14px 16px;
+    color: #444150;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.email {
+    padding: 24px 0px 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.email input {
+    padding-left: 16px;
+    padding-right: 12px;
+    width: 416px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+}
+
+input[type="email"] {
+    color: #444150;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 1;
+}
+
+.phone {
+    padding-top: 24px 0px 22px;
+    display: flex;
+    flex-direction: column;
+}
+
+.phone input {
+    padding-left: 16px;
+    padding-right: 12px;
+    width: 416px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+}
+
+input[type="tel"] {
+    color: #444150;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 1;
+}
+
+.gender {
+    padding-top: 24px;
+}
+
+.gender-boxs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gender-box {
+    display: flex;
+    align-items: center;
+    border: 2px solid #01BAB3;
+    width: 200px;
+    height: 48px;
+    flex-shrink: 0;
+    gap: 10px;
+}
+
+.gender-box-2 {
+    border: 2px solid #D9D9D9;
+    transition: 0.5s;
+}
+
+.gender-box-2:hover {
+    border: 2px solid #01BAB3;
+}
+
+input[type="radio"] {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    stroke: var(--01-bab-3, #01BAB3);
+}
+
+.password {
+    /* padding-top: 24px; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.password input {
+    width: 416px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+}
+
+input[placeholder="************"] {
+    padding-left: 10px;
+}
+
+input[placeholder="Your promo"] {
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.continue-btn {
+    text-align: center;
+    display: block;
+    width: 100px;
+}
+
+.promo {
+    padding-bottom: 24px;
+}
+
+.submit {
+    padding-bottom: 40px;
+}
+
+.submit input {
+    width: 416px;
+    height: 48px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 4px;
+    background: var(--01-bab-3, #01BAB3);
+}
+
+input[type="submit"] {
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-family: Segoe UI;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.text {
+    width: 366.704px;
+    height: 46.917px;
+    flex-shrink: 0;
+    color: #778699;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+.text span{
+    color: #01BAB3;
+}
+.footer-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 20px 210px 20px;
+    text-align: center;
+    background-color: #01BAB3;
+    display: flex;
+    justify-content: center;
+}
+.footer-btn a {
+    color: #fff;
+    text-align: center;
+    font-family: Segoe UI;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
